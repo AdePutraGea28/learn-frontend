@@ -1,0 +1,64 @@
+body{
+    font-family: sans-serif;
+}
+
+.container {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: auto;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+h1 {
+    /* background-color: aqua; */
+    font-family: sans-serif;
+    color: cadetblue;
+    margin-bottom: 0;
+}
+
+.todo{
+    display: flex;
+    flex-direction: row;
+}
+
+.input-container {
+    margin-top: 0;
+    background-color: azure;
+    width: 455px;
+}
+
+.todo-input {
+    width: 346px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.todo-name {
+    border: 1px solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: azure;    
+    width: 352px;
+}
+
+.btn-add {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 101px;
+    background-color: chartreuse;
+}
+
+.btn-update{
+    background-color: aquamarine;
+}
+
+.btn-delete {
+    background-color: red;
+}
