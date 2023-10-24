@@ -1,5 +1,5 @@
-import btnDelete from "./btn-delete.js";
-import btnUpdate from "./btn-update.js";
+import btnDelete from "./button-component/btn-delete.js";
+import btnUpdate from "./button-component/btn-update.js";
 
 function todoRow(todoNameContent, id) {
     const todo = document.createElement("div");
@@ -11,7 +11,7 @@ function todoRow(todoNameContent, id) {
     todo.setAttribute("class", `todo ${id}`)
 
     todo.appendChild(todoName);
-    todo.appendChild(btnDelete());
+    todo.appendChild(btnDelete(id));
     todo.appendChild(btnUpdate());
 
     return todo;

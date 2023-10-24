@@ -1,14 +1,14 @@
 const todos = [
     {
-        id: 1,
+        id: "1",
         todo: "Makan Pagi"
     },
     {
-        id: 2,
+        id: "2",
         todo: "Makan Siang"
     },
     {
-        id: 3,
+        id: "3",
         todo: "Makan Malam"
     },
 ]
